@@ -1,0 +1,16 @@
+{
+  "transferencias": [
+    {
+      "id": 1,
+      "value": 14.9,
+      "recipient": "Gustavo Pires Trentini",
+      "data": "05/08/2022"
+    },
+    {
+      "id": 2,
+      "value": 29.9,
+      "recipient": "Priscila Silva Correia Trentini",
+      "data": "05/08/2022"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.tableTransfers{
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+.tableTransfers tbody tr td,.tableTransfers thead tr th{
+  border:1px solid #000;
+  padding:5px;
+}
+
+.messageEmpty{
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0 !important;
+}

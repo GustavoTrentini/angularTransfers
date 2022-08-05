@@ -1,0 +1,24 @@
+<table class="tableTransfers">
+  <thead>
+    <tr>
+      <th>Destino</th>
+      <th>Data</th>
+      <th>Valor (R$)</th>
+    </tr>
+  </thead>
+  <tbody *ngIf="transfers?.length > 0; else messageEmpty">
+    <tr *ngFor="let transfer of transfers">
+      <td>{{ transfer.recipient }}</td>
+      <td>{{ transfer.data }}</td>
+      <td>{{ transfer.value | currency }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<ng-template #messageEmpty>
+  <tbody>
+    <tr>
+      <td colspan="3" class="messageEmpty">Nenhuma tranferência encontrada</td>
+    </tr>
+  </tbody>
+</ng-template>
